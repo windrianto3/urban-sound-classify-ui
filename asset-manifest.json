@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/urban-sound-classify-ui/static/css/main.feda96da.css",
-    "main.js": "/urban-sound-classify-ui/static/js/main.a8e11cfc.js",
+    "main.js": "/urban-sound-classify-ui/static/js/main.4caef76f.js",
     "static/media/logo.svg": "/urban-sound-classify-ui/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/urban-sound-classify-ui/index.html",
     "main.feda96da.css.map": "/urban-sound-classify-ui/static/css/main.feda96da.css.map",
-    "main.a8e11cfc.js.map": "/urban-sound-classify-ui/static/js/main.a8e11cfc.js.map"
+    "main.4caef76f.js.map": "/urban-sound-classify-ui/static/js/main.4caef76f.js.map"
   },
   "entrypoints": [
     "static/css/main.feda96da.css",
-    "static/js/main.a8e11cfc.js"
+    "static/js/main.4caef76f.js"
   ]
 }
