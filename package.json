@@ -18,6 +18,8 @@
   },
   "homepage": "https://windrianto3.github.io/urban-sound-classify-ui",
   "scripts": {
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -44,6 +46,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.15",
+    "gh-pages": "^6.0.0",
     "postcss": "^8.4.28",
     "tailwindcss": "^3.3.3"
   }
