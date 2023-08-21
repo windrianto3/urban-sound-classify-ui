@@ -12,10 +12,10 @@ const Navbar = () => {
 
             <ul className=' text-white flex'>
                 <li>
-                    <Link to='/urban-sound-classifier'> Home </Link>
+                    <Link to='/urban-sound-classify-ui'> Home </Link>
                 </li>
                 <li>
-                    <Link to='/urban-sound-classifier/about'> About </Link>
+                    <Link to='/urban-sound-classify-ui/about'> About </Link>
                 </li>
             </ul>
         </div>
