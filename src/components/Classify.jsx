@@ -13,7 +13,7 @@ const Classify = () => {
         renderAudioPlayer()
         const fdata = new FormData();
         fdata.append('file', ufile)
-        await fetch('/uploader', {'method': 'POST', 'body': fdata})
+        await fetch('https://proven-concept-396615.ue.r.appspot.com/uploader', {'method': 'POST', 'body': fdata})
         .then((response) => response.json())
         .then(jsondat => {setResults(jsondat)})
         .catch((e) => {console.log("Please check that your file is valid.")}) 
