@@ -16,6 +16,7 @@
     "react-scroll": "^1.8.9",
     "web-vitals": "^2.1.0"
   },
+  "homepage": "https://windrianto3.github.io/urban-sound-classify-ui",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
