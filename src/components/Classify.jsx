@@ -35,7 +35,7 @@ const Classify = () => {
         
         return <div className='w-full'>
             <div>
-                <h3 className='text-4xl font-bold text-bord border-spacing-y-9 border-b-4 border-b-black text-center'>Prediction Results</h3>
+                <h3 className='text-4xl font-bold text-center'>Prediction Results</h3>
             </div>
 
             <div className='w-full px-10 py-8 flex flex-col justify-center align-middle text-center'>
@@ -53,9 +53,9 @@ const Classify = () => {
     }
 
   return (
-    <div className='h-screen w-full bg-white'>
+    <div className='h-screen w-[80%] mx-auto bg-white'>
         <div className='px-4 max-w-[1000px] mx-auto flex flex-col py-24 h-full align-middle'>
-            <h3 className='text-4xl font-bold text-bord border-spacing-y-9 border-b-4 border-b-black text-center'>Classify</h3>
+            <h3 className='text-4xl font-bold border-spacing-y-9 text-center'>Classify</h3>
             <p className='text-center text-xl pt-6'>Classify a <b>MP3</b> or <b>WAV</b> urban sound by submitting it below!</p>
             <form  className='items-center justify-center flex py-4 flex-col'>
                 <input type='file' onChange={(e) => {setFile(e.target.files[0]);}}  className="items-center align-middle justify-center
