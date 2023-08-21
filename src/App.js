@@ -10,8 +10,8 @@ function App() {
       <Router>
         <Navbar/>
         <Routes>
-          <Route path="/urban-sound-classifier" element={<Classify/>} />
-          <Route path="/urban-sound-classifier/about" element={<About/>} />
+          <Route path="/urban-sound-classify-ui" element={<Classify/>} />
+          <Route path="/urban-sound-classify-ui/about" element={<About/>} />
         </Routes>
       </Router>
     </div>
